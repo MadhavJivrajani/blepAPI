@@ -7,8 +7,9 @@ import (
 	"github.com/gorilla/mux"
 )
 
-func api_test(w http.ResponseWriter, r *http.Request) { //http.ResponseWriter assembles the HTTP server's response
-														//http.Request represents the client't request 
+func api_test(w http.ResponseWriter, r *http.Request) { 
+	//http.ResponseWriter assembles the HTTP server's response
+	//http.Request represents the client't request 
 	fmt.Fprintf(w, "API endpoint test")
 }
 
